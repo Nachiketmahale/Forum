@@ -1,5 +1,5 @@
 
-const socket=io('http://localhost:3000');
+const socket=io('https://forum-chat.herokuapp.com/');
 const nam=prompt('Enter your name to chat with your friends');
 const message=document.getElementById('data');
 const send=document.getElementById('btn');
